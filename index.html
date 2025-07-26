@@ -1,0 +1,112 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>黑盒工坊-海量插件，一键配置</title>
+		<script src="static/js/jquery.min.js"></script>
+		<link rel="shortcut icon" href="img/logo.jpg">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		<style>
+			.banner-wrap {
+				background-color: #52564e;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div style="min-width: 1500px;margin: 0 auto;">
+			<div style="background-color: #333;">
+				<div class="banner-wrap">
+					<div class="banner-img"><img src="static/picture/main.png" onclick="dowmnload()" id="download1">
+					</div>
+					<div class="banner-info">
+						<h1>
+							<img src="static/picture/logo.jpg" alt="">
+							<span>  黑盒工坊 </span>
+						</h1>
+						<ul class="text">
+							<li>
+								<span class="text-label">版本：</span>
+								<span class="text-value" id="versionNumber" style="font-weight: 700;">V24.1.4.0.1</span>
+							</li>
+							<li>
+								<span class="text-label">软件授权：</span>
+								<span class="text-value">免费软件</span>
+							</li>
+							<li>
+								<span class="text-label">更新时间：</span>
+								<span class="text-value updateTime"></span>
+							</li>
+							<li>
+								<span class="text-label">系统平台：</span>
+								<span class="text-value">Win7/WinVista/WinXP/Win8/Win10兼容软件</span>
+							</li>
+						</ul>
+						<a class="download-btn" data-agl-cvt="6" onclick="dowmnload()" id="download1"><img src="static/picture/download_ico.png">本地下载</a>
+						<a class="download-btn download-btn-save" data-agl-cvt="6" onclick="dowmnload()" id="download1"><img src="static/picture/download_ico_save.png">
+							<div>
+								<div class="p1">安全下载</div>
+								
+							</div>
+						</a>
+						<br>
+						<p class="introduction" style="margin-top: 100px;font-size: 13px;">Win助手防捆绑下载，更快速、更安全
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="content-wrap">
+				<div class="left center">
+					<h2>海量插件，一键安装与收录</h2>
+					<img src="static/picture/foot1.png">
+				</div>
+				<div class="right center">
+					<h2>账号、跨区服、跨角色同步</h2>
+					<img src="static/picture/foot2.png">
+				</div>
+			</div>
+			<div class="instruction">
+				软件介绍：<p>
+					魔兽世界助手黑盒工坊是为魔兽世界所准备一款插件，虽然现在国服已经没了，但是相信很多的魔兽玩家都以自己的方式来游玩这款自己所喜欢的游戏，现在通过这款魔兽世界助手黑盒工坊来为你的游戏增加内容，喜欢的话就快来西西下载这款魔兽世界助手黑盒工坊！
+				<p>
+					本站下载为您提供 黑盒工坊 电脑版  最新版 黑盒工坊 电脑版下载，黑盒工坊 ，黑盒工坊 电脑版 最新版。
+			</p></div>
+			<div class="foot">
+				<div>
+					<img src="static/picture/logo.jpg" class="foot-logo">
+					<span style="font-size: 20px;vertical-align: middle"> 黑盒工坊 </span>
+				</div>
+				<div style="font-size: 24px;font-weight: 600;">海量插件，一键配置</div>
+				<div class="foot-download-btn" data-agl-cvt="6" onclick="dowmnload()" id="download1"><img src="static/picture/download_ico_save.png" style="width:20px;vertical-align: text-bottom;margin-right: 10px;">安全下载</div>
+			</div>
+			<div class="copy" id="ft">
+				<p>
+					
+				</p>
+			</div>
+		</div>
+		<script>
+			let updateTime = new Date((new Date().getTime() - 48 * 60 * 60 * 1000))
+			let month = (updateTime.getMonth() + 1) < 10 ? "0" + (updateTime.getMonth() + 1) : (updateTime.getMonth() + 1)
+			let day = updateTime.getDate() < 10 ? "0" + updateTime.getDate() : updateTime.getDate()
+			document.getElementsByClassName("updateTime")[0].innerHTML = updateTime.getFullYear() + "-" + month + "-" + day
+			function dowmnload() {
+				window.open('http://dw.jiuzhaoren.top/down/黑盒工坊_50042_602395.exe')
+			}
+		</script>
+
+<script>
+(function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
+b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+})(window,document,"script","_qha",615001,false);
+</script>
+
+	</body>
+
+</html>
